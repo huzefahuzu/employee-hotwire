@@ -1,25 +1,15 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+To run this project - please follow below steps:
 
-Things you may want to cover:
+* `bundle install`
 
-* Ruby version
+* `rails db:create`
 
-* System dependencies
+* `rails db:migrate`
 
-* Configuration
+* `rails tailwindcss:build`
 
-* Database creation
+* Finally to start the server - run - `./bin/dev`
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-# employee-hotwire
+**I haven't completed the employment details modal part in this as I am still learning stimulus js
