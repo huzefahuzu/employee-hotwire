@@ -12,4 +12,5 @@ To run this project - please follow below steps:
 
 * Finally to start the server - run - `./bin/dev`
 
-**I haven't completed the employment details modal part in this as I am still learning stimulus js
+
+* I haven't completed the employment details modal part in this as I am still learning stimulus js
