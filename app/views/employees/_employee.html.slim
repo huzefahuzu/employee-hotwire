@@ -1,0 +1,27 @@
+| <div id="
+= dom_id employee
+| "> 
+p.my-5
+  strong.block.font-medium.mb-1
+    | First name:
+  = employee.first_name
+p.my-5
+  strong.block.font-medium.mb-1
+    | Last name:
+  = employee.last_name
+p.my-5
+  strong.block.font-medium.mb-1
+    | Nick name:
+  = employee.nick_name
+p.my-5
+  strong.block.font-medium.mb-1
+    | Email address:
+  = employee.email_address
+p.my-5
+  strong.block.font-medium.mb-1
+    | Phone number:
+  = employee.phone_number
+- if action_name != "show"
+  = link_to "Show this employee", employee, class: "rounded-lg py-3 px-5 bg-gray-100 inline-block font-medium"
+  = link_to 'Edit this employee', edit_employee_path(employee), data: { turbo_frame: 'modal' }, class: "rounded-lg py-3 ml-2 px-5 bg-gray-100 inline-block font-medium"
+  hr.mt-6
